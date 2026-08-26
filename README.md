@@ -111,6 +111,11 @@ A responsive React-based interface provides a simple experience for students.
                     │                         │
                     └────────────┬────────────┘
                                  ▼
+                    ┌─────────────────────────┐
+                    │   Relevant Opportunities│
+                    │       for Student       │
+                    └─────────────────────────┘
+
 🛠️ Technology Stack
 Frontend
 React
@@ -145,7 +150,3 @@ Node.js 18+
 npm
 Git
 A Gemini API key
-                    ┌─────────────────────────┐
-                    │   Relevant Opportunities│
-                    │       for Student       │
-                    └─────────────────────────┘
