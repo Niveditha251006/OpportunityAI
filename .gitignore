@@ -1,0 +1,58 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Database dumps and backups
+*.dump
+*.sql
+*.bak
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Local logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.backup
+# Ignore temporary backup files
+*.backup
+
+# Ignore Python cache directories and bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Ignore local environments and secrets
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Ignore local database dumps
+*.dump
+# Exclude backup and temporary files
+*.backup
+*.before_text_route
+*.step3-backup
+# Ignore temporary backup files
+*.backup
+*.universe-backup
+*.profile-backup
+*.before_text_route
+*.step3-backup
