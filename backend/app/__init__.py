@@ -9,12 +9,14 @@ from app.routes.career_chat import career_chat_bp
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
-
     CORS(
         app,
         resources={
             r"/api/*": {
-                "origins": "http://localhost:5173"
+                "origins": [
+                    "http://localhost:5173",
+                    "https://frontend-nivi25.vercel.app"
+                ]
             }
         }
     )
